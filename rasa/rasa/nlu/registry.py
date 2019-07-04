@@ -23,6 +23,7 @@ from rasa.nlu.featurizers.ngram_featurizer import NGramFeaturizer
 from rasa.nlu.featurizers.regex_featurizer import RegexFeaturizer
 from rasa.nlu.featurizers.spacy_featurizer import SpacyFeaturizer
 from rasa.nlu.model import Metadata
+from rasa.nlu.tokenizers.japanese_tokenizer import JapaneseTokenizer
 from rasa.nlu.tokenizers.jieba_tokenizer import JiebaTokenizer
 from rasa.nlu.tokenizers.mitie_tokenizer import MitieTokenizer
 from rasa.nlu.tokenizers.spacy_tokenizer import SpacyTokenizer
@@ -45,6 +46,7 @@ component_classes = [
     SpacyNLP,
     MitieNLP,
     # tokenizers
+    JapaneseTokenizer,
     MitieTokenizer,
     SpacyTokenizer,
     WhitespaceTokenizer,

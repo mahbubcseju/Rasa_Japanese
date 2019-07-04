@@ -1,0 +1,12 @@
+intents:
+- utter_icebreak12
+- greet
+templates:
+  utter_icebreak12:
+  - text: 今どこで、何をしていますか？
+  utter_greet:
+  - text: ご協力いただきありがとうございます。本日は宜しくお願いします
+actions:
+- utter_greet
+- utter_icebreak12
+

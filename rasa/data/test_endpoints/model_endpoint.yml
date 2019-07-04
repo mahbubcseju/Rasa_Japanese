@@ -1,3 +1,0 @@
-model:
-  url: localhost
-  wait_time_between_pulls: 10

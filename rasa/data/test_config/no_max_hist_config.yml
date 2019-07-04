@@ -1,3 +1,0 @@
-policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
