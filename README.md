@@ -25,6 +25,8 @@ pip install -e .
    rasa init --no-prompt
    
    ```
+   if you find any error like " rasa.core.trackers  - Tried to set non existent slot 'name'. Make sure you added all your slots to your domain file.", then please remove all the data inside rasa/data/* directory.
+   
 - Then add the Japanese language tokenizer in the path "rasa/rasa/nlu/japanese_tokenizer.py".
 I have added the file in "rasa/rasa/nlu/japanese_tokenizer.py" path.
 - Add JapaneseTokenizer component class in /rasa/rasa/nlu/registry.py.
