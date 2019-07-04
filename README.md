@@ -27,7 +27,7 @@ pip install -e .
    ```
 - Then add the Japanese language tokenizer in the path "rasa/rasa/nlu/japanese_tokenizer.py".
 I have added the file in "rasa/rasa/nlu/japanese_tokenizer.py" path.
-- Add JapaneseTokenizer component class in /rasa/rasa/registry.py.
+- Add JapaneseTokenizer component class in /rasa/rasa/nlu/registry.py.
    E.g:
    ```
    from rasa.nlu.tokenizers.japanese_tokenizer import JapaneseTokenizer
