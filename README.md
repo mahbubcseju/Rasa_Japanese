@@ -13,6 +13,7 @@ cd rasa
  add mecab-python3  at the end of requirements.txt file. Or install mecab using pip.
 ```
 pip install mecab-python3
+pip install unidic-lite
 ```
 - Now install all the requirements using : 
 ```
@@ -70,7 +71,7 @@ I have added the file in "rasa/rasa/nlu/japanese_tokenizer.py" path.
 - Now Add data as data/nlu.md, stories.md and domail.yml.
   E.g: 
   
-  nle.md:
+  nlu.md:
     ```
     ## intent:greet
     - ハロー
