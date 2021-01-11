@@ -37,7 +37,7 @@ class JapaneseTokenizer(Tokenizer, Component):
         running_offset=0
         tokens = []
         for word in words:
-            word_offset = text.index(word, running_offset)
+            word_offset = text.find(word, running_offset) # origin-> text.index
             word_len = len(word)
             running_offset = word_offset + word_len
             tokens.append(Token(word, word_offset))
