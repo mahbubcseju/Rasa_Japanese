@@ -25,6 +25,12 @@ pip install -e .
    rasa init --no-prompt
    
    ```
+   
+   Change h5py version from 3.1.0 to 2.8.0 if the bug reported when running 'rasa shell'.
+   ```
+   pip uninstall h5py
+   pip install h5py==2.8.0
+   ```   
    if you find any error like " rasa.core.trackers  - Tried to set non existent slot 'name'. Make sure you added all your slots to your domain file.", then please remove all the data inside rasa/data/* directory.
    
 - Then add the Japanese language tokenizer in the path "rasa/rasa/nlu/japanese_tokenizer.py".
