@@ -2,7 +2,7 @@ sphinx==1.8.2
 sphinx-autobuild==0.7.1
 sphinxcontrib-programoutput==0.11
 nbsphinx==0.3.2
-pygments==2.2.0
+pygments==2.7.4
 sphinxcontrib-httpdomain==1.6.1
 sphinxcontrib-websupport==1.1.0
 sphinxcontrib-trio==1.0.2
